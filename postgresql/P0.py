@@ -14,7 +14,7 @@ cur = conn.cursor()
 
 file_path = "../data_used/bookcorpus_sentences.txt"
 
-print(f"Loading sentences from {file_path} into PostgreSQL...")
+print("Loading sentences into PostgreSQL...")
 
 with open(file_path, 'r', encoding='utf-8') as f:
     start = time.time()

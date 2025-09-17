@@ -46,5 +46,5 @@ cur.close()
 conn.close()
 
 total_time = (end - start) * 1000
-print(f"Embeddings stored for all {len(rows)} sentences in {total_time:.2f} ms")
-print(f"Average time per embedding: {total_time / len(rows):.6f} ms")
+print(f"Embeddings stored for all {len(rows)} sentences in {total_time:.8f} ms")
+print(f"Average time per embedding: {total_time / len(rows):.8f} ms")

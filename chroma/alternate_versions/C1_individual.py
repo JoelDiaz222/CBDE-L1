@@ -26,7 +26,6 @@ for id, doc  in zip(ids, documents):
     )
     end = time.time()
 
-    print(id)
     embedding_insert_times.append((end - start) * 1000)
 
 print(f"Embeddings generated and stored for all sentences.\n")

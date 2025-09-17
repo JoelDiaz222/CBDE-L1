@@ -11,10 +11,11 @@ documents = ids_and_docs['documents']
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-print(f"Generating and storing embeddings for {len(ids)} sentences...")
+print(f"Generating embeddings for {len(ids)} sentences...")
 
-print("Generating embeddings...")
 embeddings = model.encode(documents).tolist()
+
+print(f"Storing embeddings...")
 
 batch_size = 5000
 

@@ -14,7 +14,11 @@ try:
 except:
    pass
 
-collection = client.create_collection(name="bookcorpus_sentences", embedding_function=dummy_ef)
+collection = client.create_collection(
+    name="bookcorpus_sentences",
+    embedding_function=dummy_ef,
+    metadata={"hnsw:space": "cosine"}
+)
 
 file_path = "../data_used/bookcorpus_sentences.txt"
 with open(file_path, "r", encoding="utf-8") as f:
