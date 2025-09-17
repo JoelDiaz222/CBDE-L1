@@ -10,12 +10,12 @@ dummy_ef = DummyEmbedding()
 client = chromadb.PersistentClient()
 
 try:
-   client.delete_collection(name="bookcorpus_sentences")
+   client.delete_collection(name="bookcorpus_sentences_cosine")
 except:
    pass
 
 collection = client.create_collection(
-    name="bookcorpus_sentences",
+    name="bookcorpus_sentences_cosine",
     embedding_function=dummy_ef,
     metadata={"hnsw:space": "cosine"}
 )

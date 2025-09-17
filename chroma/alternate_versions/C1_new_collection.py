@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import time
 
 client = chromadb.PersistentClient()
-source_collection = client.get_collection(name="bookcorpus_sentences")
+source_collection = client.get_collection(name="bookcorpus_sentences_cosine")
 
 ids_and_docs = source_collection.get()
 ids = ids_and_docs['ids']

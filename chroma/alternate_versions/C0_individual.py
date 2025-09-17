@@ -11,11 +11,11 @@ dummy_ef = DummyEmbedding()
 client = chromadb.PersistentClient()
 
 try:
-   client.delete_collection(name="bookcorpus_sentences")
+   client.delete_collection(name="bookcorpus_sentences_cosine")
 except:
    pass
 
-collection = client.create_collection(name="bookcorpus_sentences", embedding_function=dummy_ef)
+collection = client.create_collection(name="bookcorpus_sentences_cosine", embedding_function=dummy_ef)
 
 file_path = "../../data_used/bookcorpus_sentences.txt"
 with open(file_path, "r", encoding="utf-8") as f:
