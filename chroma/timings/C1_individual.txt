@@ -1,0 +1,5 @@
+Embedding insertion timing stats (milliseconds):
+Minimum: 1.45626068
+Maximum: 36.10992432
+Standard deviation: 1.87454384
+Average time: 6.64977846

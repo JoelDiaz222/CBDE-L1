@@ -1,0 +1,13 @@
+Time to store 10k embeddings in milliseconds.
+The embeddings of each element in the collection have been updated in every execution.
+
+5849.34926033
+5850.26097298
+5817.35587120
+6200.74105263
+5855.03816605
+5750.63395500
+5951.59912109
+7517.34924316
+5823.01688194
+6023.80967140
