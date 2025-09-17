@@ -12,7 +12,6 @@ with open(file_path, "r", encoding="utf-8") as f:
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Store timing results
 euclidean_times = []
 cosine_times = []
 

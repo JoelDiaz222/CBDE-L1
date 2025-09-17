@@ -1,0 +1,13 @@
+Time to load 10k sentences in milliseconds.
+The table has been cleared before every execution.
+
+10.07413864
+10.68210602
+16.24917984
+9.46521759
+11.58595085
+11.51013374
+11.50608063
+11.51895523
+10.01024246
+17.10891724

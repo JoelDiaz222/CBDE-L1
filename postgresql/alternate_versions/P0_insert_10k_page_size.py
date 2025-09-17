@@ -36,4 +36,4 @@ cur.close()
 conn.close()
 
 total_time = (end - start) * 1000
-print(f"Loaded all sentences in {total_time:.2f} ms")
+print(f"Loaded all sentences in {total_time:.8f} ms")

@@ -6,7 +6,7 @@ import numpy as np
 conn = psycopg2.connect(dbname="cbde", host="localhost", port="5432")
 cur = conn.cursor()
 
-file_path = "../data_used/our_10_sentences.txt"
+file_path = "../../data_used/our_10_sentences.txt"
 with open(file_path, "r", encoding="utf-8") as f:
     chosen_sentences = [line.strip() for line in f if line.strip()]
 
