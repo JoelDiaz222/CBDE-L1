@@ -9,5 +9,5 @@ CREATE TABLE sentences_pgvector (
 -- HNSW index for cosine distance
 CREATE INDEX ON sentences_pgvector USING hnsw (embedding vector_cosine_ops);
 
--- IVFFlat index for L2/Euclidean distance
-CREATE INDEX ON sentences_pgvector USING ivfflat (embedding vector_l2_ops) WITH (lists = 100);
+-- HNSW index for L2/Euclidean distance
+CREATE INDEX ON sentences_pgvector USING hnsw (embedding vector_l2_ops);

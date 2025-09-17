@@ -4,7 +4,7 @@ from psycopg2.extras import execute_batch
 from sentence_transformers import SentenceTransformer
 
 # The difference between this script and P1 is that it updates the sentences_pgvector relation to insert the
-# corresponding embeddings instead of putting them in another table
+# corresponding embeddings, instead of putting them in another table
 
 DB_NAME = "cbde"
 DB_HOST = "localhost"
