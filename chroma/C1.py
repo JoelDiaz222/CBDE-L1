@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import time
 
 client = chromadb.PersistentClient()
-source_collection = client.get_collection(name="bookcorpus_sentences_cosine")
+source_collection = client.get_collection(name="bookcorpus_sentences")
 
 ids_and_docs = source_collection.get()
 ids = ids_and_docs['ids']
@@ -15,12 +15,12 @@ print(f"Generating embeddings for {len(ids)} sentences...")
 embeddings = model.encode(documents).tolist()
 
 try:
-    client.delete_collection(name="bookcorpus_embeddings")
+    client.delete_collection(name="bookcorpus_sentences_cosine")
 except:
     pass
 
 embeddings_collection = client.create_collection(
-    name="bookcorpus_embeddings",
+    name="bookcorpus_sentences_cosine",
     metadata = {"hnsw:space": "cosine"}
 )
 

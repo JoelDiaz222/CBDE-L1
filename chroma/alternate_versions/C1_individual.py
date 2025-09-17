@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 client = chromadb.PersistentClient()
-collection = client.get_collection(name="bookcorpus_sentences_cosine")
+collection = client.get_collection(name="bookcorpus_sentences")
 
 ids_and_docs = collection.get()
 ids = ids_and_docs['ids']
