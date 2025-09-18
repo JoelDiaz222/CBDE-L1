@@ -1,103 +1,11 @@
-Query: Emily decided to spend the afternoon painting by the river, enjoying the peaceful sound of water flowing nearby.
-
-Top Euclidean:
- emily made us all meet by the fountain . (distance=0.95866992)
- emily crossed her arms . (distance=0.99847725)
-Top Cosine:
- emily made us all meet by the fountain . (distance=0.45952378)
- emily crossed her arms . (distance=0.49847823)
-
-Query: He held the knife carefully, realizing how sharp it was, and placed it back on the kitchen counter with caution.
-
-Top Euclidean:
- i ran a finger over the blade before putting it back . (distance=0.88132862)
- i rammed my knife into his stomach and pulled it out . (distance=0.89631522)
-Top Cosine:
- i ran a finger over the blade before putting it back . (distance=0.38837015)
- i rammed my knife into his stomach and pulled it out . (distance=0.40169058)
-
-Query: The fog grew thicker as they climbed the mountain trail, making it difficult to see the path ahead.
-
-Top Euclidean:
- we turned in the air and i could see the mountains in the distance . (distance=1.03487009)
- the sky was clearer here and also more windy . (distance=1.04159936)
-Top Cosine:
- we turned in the air and i could see the mountains in the distance . (distance=0.53547773)
- the sky was clearer here and also more windy . (distance=0.54246439)
-
-Query: She stood by the door for a long moment, wondering whether she should go inside or keep walking away.
-
-Top Euclidean:
- she inhaled raggedly and pushed open the heavy wooden door to the room she had left just a few hours before . (distance=0.80758136)
- she motioned for us to move up to the doors . (distance=0.84735767)
-Top Cosine:
- she inhaled raggedly and pushed open the heavy wooden door to the room she had left just a few hours before . (distance=0.32609399)
- she motioned for us to move up to the doors . (distance=0.35900767)
-
-Query: After months of traveling, he was finally back home, where the familiar smell of fresh bread filled the air.
-
-Top Euclidean:
- the smell of death threatened to engulf him here , fifteen years later . (distance=0.94623836)
- the air smelled musty and i had a feeling no one had ever been here . (distance=0.97666915)
-Top Cosine:
- the smell of death threatened to engulf him here , fifteen years later . (distance=0.44768332)
- the air smelled musty and i had a feeling no one had ever been here . (distance=0.47694144)
-
-Query: Jazell smiled brightly as she received the award, proud of her hard work and dedication to her art.
-
-Top Euclidean:
- we are very proud , jazell . (distance=0.99299769)
- he smiled in triumph . (distance=1.00608945)
-Top Cosine:
- we are very proud , jazell . (distance=0.49302232)
- he smiled in triumph . (distance=0.50610793)
-
-Query: My mom always reminds me to be kind and patient, even when life feels overwhelming and stressful.
-
-Top Euclidean:
- my mom rushed forward and gave me a quick hug . (distance=0.98775694)
- my mom released me from her clamp-like hug , well i am surprised , and very proud ! (distance=1.03579364)
-Top Cosine:
- my mom rushed forward and gave me a quick hug . (distance=0.48783223)
- my mom released me from her clamp-like hug , well i am surprised , and very proud ! (distance=0.53643435)
-
-Query: The utensils rattled in the drawer as the train passed by, shaking the entire small kitchen.
-
-Top Euclidean:
- a hurried grinding noise sounded inside as the door quivered . (distance=1.10998255)
- clay dishes clinked from the kitchen and the aroma of lemon bubbles joined the coffee floating around them in the empty coffee shop . (distance=1.12047318)
-Top Cosine:
- a hurried grinding noise sounded inside as the door quivered . (distance=0.61603061)
- my mom handed me some dishes and utensils . (distance=0.63104217)
-
-Query: He injured his leg during the soccer game but still managed to finish the match with determination.
-
-Top Euclidean:
- he kicked and punched but couldnt find the right place to hit his attacker . (distance=0.95915743)
- he landed gracefully but almost tripped . (distance=0.96398953)
-Top Cosine:
- he kicked and punched but couldnt find the right place to hit his attacker . (distance=0.45999142)
- he landed gracefully but almost tripped . (distance=0.46463782)
-
-Query: The klutz tripped over the rug again, spilling orange juice all over the freshly cleaned floor.
-
-Top Euclidean:
- it gave a screech and fell to the floor , dead . (distance=1.03092483)
- he threw up until there was nothing left , then wiped his chin on his t-shirt . (distance=1.05620776)
-Top Cosine:
- it gave a screech and fell to the floor , dead . (distance=0.53140292)
- he threw up until there was nothing left , then wiped his chin on his t-shirt . (distance=0.55778758)
-
-==================================================
 EUCLIDEAN DISTANCE TIMING STATISTICS:
-Minimum: 0.00182009
-Maximum: 0.00489688
-Standard deviation: 0.00084007
-Average time: 0.00293143
+Minimum: 0.00207400
+Maximum: 0.00634503
+Standard deviation: 0.00103685
+Average time: 0.00359700
 
-==================================================
 COSINE DISTANCE TIMING STATISTICS:
-Minimum: 0.00137901
-Maximum: 0.00285721
-Standard deviation: 0.00044702
-Average time: 0.00216622
+Minimum: 0.00195193
+Maximum: 0.00375986
+Standard deviation: 0.00044139
+Average time: 0.00310726
