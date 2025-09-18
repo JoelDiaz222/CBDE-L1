@@ -11,3 +11,8 @@ The table has been cleared before every execution.
 4421.390771865845
 4347.461938858032
 4382.993936538696
+
+Minimum: 4347.46193886
+Maximum: 4996.57511711
+Standard deviation: 188.29699494
+Average time: 4537.42885590

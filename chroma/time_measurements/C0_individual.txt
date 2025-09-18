@@ -1,5 +1,5 @@
 Text insertion timing stats (milliseconds):
-Total time: 25982.856273651123
+Total time (all sentences): 25982.856273651123
 Minimum: 0.86402893
 Maximum: 14.11199570
 Standard deviation: 0.92869144

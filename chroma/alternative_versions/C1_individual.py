@@ -33,6 +33,7 @@ print(f"Embeddings generated and stored for all sentences.\n")
 times = np.array(embedding_insert_times)
 
 print("Embedding insertion timing stats (milliseconds):")
+print(f"Total time: {times.sum()}")
 print(f"Minimum: {times.min():.8f}")
 print(f"Maximum: {times.max():.8f}")
 print(f"Standard deviation: {times.std():.8f}")

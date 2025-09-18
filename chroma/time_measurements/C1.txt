@@ -10,3 +10,8 @@ The new collection containing the embeddings has been recreated for every execut
 1794.3918704986572
 1730.4251194000244
 1733.2019805908203
+
+Minimum: 1435.96625328
+Maximum: 1827.34513283
+Standard deviation: 110.32084627
+Average time: 1728.20536296

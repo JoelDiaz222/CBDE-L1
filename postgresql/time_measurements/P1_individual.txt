@@ -1,5 +1,5 @@
 Embedding insertion timing stats (milliseconds):
-Total time: 20137.38799095
+Total time (all sentences): 20137.38799095
 Minimum: 0.91171265
 Maximum: 33.30087662
 Standard deviation: 0.72207634

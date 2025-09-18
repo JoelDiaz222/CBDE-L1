@@ -11,3 +11,8 @@ The embeddings of each element in the collection have been updated in every exec
 7517.34924316
 5823.01688194
 6023.80967140
+
+Minimum: 5750.63395500
+Maximum: 7517.34924316
+Standard deviation: 499.76995848
+Average time: 6063.91541958

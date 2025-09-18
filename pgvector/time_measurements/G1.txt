@@ -10,3 +10,8 @@ The embeddings column has been cleared before every execution.
 14048.511028289795
 13614.217042922974
 14709.413766860962
+
+Minimum: 13051.24807358
+Maximum: 15189.27574158
+Standard deviation: 665.26268755
+Average time: 13871.60396576
