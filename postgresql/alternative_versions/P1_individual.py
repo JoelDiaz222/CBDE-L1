@@ -3,15 +3,7 @@ from sentence_transformers import SentenceTransformer
 import time
 import numpy as np
 
-DB_NAME = "cbde"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-
-conn = psycopg2.connect(
-    dbname=DB_NAME,
-    host=DB_HOST,
-    port=DB_PORT
-)
+conn = psycopg2.connect(dbname="cbde", host="localhost", port="5432")
 cur = conn.cursor()
 
 cur.execute("SELECT id, sentence FROM sentences")
