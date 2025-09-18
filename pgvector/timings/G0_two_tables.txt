@@ -1,2 +1,0 @@
-The time measurements of this program are like P0, since the script is the same.
-G0_single_table.txt times the insertion of the sentences in a column with the 384 dimension vector embedding column.

@@ -1,0 +1,2 @@
+Since this script is the same as P0, the time measurements will also be like it.
+G0.txt times the insertion of the sentences in a column with the 384 dimension vector embedding column.
