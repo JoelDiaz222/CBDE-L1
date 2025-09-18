@@ -6,15 +6,7 @@ from sentence_transformers import SentenceTransformer
 # The difference between this script and P1 is that it updates the sentences_pgvector relation to insert the
 # corresponding embeddings, instead of putting them in another table
 
-DB_NAME = "cbde"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-
-conn = psycopg2.connect(
-    dbname=DB_NAME,
-    host=DB_HOST,
-    port=DB_PORT
-)
+conn = psycopg2.connect(dbname="cbde", host="localhost", port="5432")
 cur = conn.cursor()
 
 cur.execute("SELECT id, sentence FROM sentences_pgvector")

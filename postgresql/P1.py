@@ -3,15 +3,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 from sentence_transformers import SentenceTransformer
 
-DB_NAME = "cbde"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-
-conn = psycopg2.connect(
-    dbname=DB_NAME,
-    host=DB_HOST,
-    port=DB_PORT
-)
+conn = psycopg2.connect(dbname="cbde", host="localhost", port="5432")
 cur = conn.cursor()
 
 cur.execute("SELECT id, sentence FROM sentences")

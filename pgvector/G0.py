@@ -3,15 +3,7 @@ import time
 
 # This is the same script as P0, just changing the sencences table name to sentences_pgvector
 
-DB_NAME = "cbde"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-
-conn = psycopg2.connect(
-    dbname=DB_NAME,
-    host=DB_HOST,
-    port=DB_PORT
-)
+conn = psycopg2.connect(dbname="cbde", host="localhost", port="5432")
 cur = conn.cursor()
 
 file_path = "../data_used/bookcorpus_sentences.txt"
