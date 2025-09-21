@@ -1,11 +1,11 @@
 EUCLIDEAN DISTANCE TIMING STATISTICS:
-Minimum: 0.25135112
-Maximum: 0.30192590
-Standard deviation: 0.01546345
-Average time: 0.26748106
+Minimum: 0.41774678
+Maximum: 0.44120121
+Standard deviation: 0.00812244
+Average time: 0.42448943
 
 COSINE DISTANCE TIMING STATISTICS:
-Minimum: 0.37831783
-Maximum: 0.39998007
-Standard deviation: 0.00695599
-Average time: 0.38619728
+Minimum: 0.37416220
+Maximum: 0.39329195
+Standard deviation: 0.00514001
+Average time: 0.37847407
