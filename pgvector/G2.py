@@ -24,7 +24,6 @@ for sentence in chosen_sentences:
     euclidean_query = """
     SELECT id, sentence, embedding <-> %s::vector AS euclidean_distance
     FROM sentences_pgvector 
-    WHERE embedding IS NOT NULL
     ORDER BY embedding <-> %s::vector
     LIMIT 2;
     """
@@ -43,7 +42,6 @@ for sentence in chosen_sentences:
     cosine_query = """
     SELECT id, sentence, embedding <=> %s::vector AS cosine_distance
     FROM sentences_pgvector 
-    WHERE embedding IS NOT NULL
     ORDER BY embedding <=> %s::vector
     LIMIT 2;
     """
