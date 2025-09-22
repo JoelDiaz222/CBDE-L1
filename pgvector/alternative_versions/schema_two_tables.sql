@@ -7,7 +7,7 @@ CREATE TABLE sentences (
 
 CREATE TABLE embeddings_pgvector (
     id SERIAL PRIMARY KEY REFERENCES sentences(id),
-    embedding vector(384) NOT NULL
+    embedding VECTOR(384) NOT NULL
 );
 
 -- HNSW index for cosine distance

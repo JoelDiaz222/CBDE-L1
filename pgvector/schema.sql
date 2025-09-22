@@ -3,7 +3,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 CREATE TABLE sentences_pgvector (
     id SERIAL PRIMARY KEY,
     sentence TEXT NOT NULL,
-    embedding vector(384)
+    embedding VECTOR(384)
 );
 
 -- HNSW index for cosine distance
